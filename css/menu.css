@@ -1,0 +1,14 @@
+.hero__menu{
+    position : fixed;
+    width : 600px;
+    top : 20px;
+    right : 20px;
+
+}
+.hero__menu a{
+display: inline-block;
+padding: 5px 10px;
+background-color: rgb(158, 98, 23);
+color : #fff;
+text-decoration: none;
+}

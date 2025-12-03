@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+section,header, footer{
+    min-height: 100vh;
+}
+h1,h2,h3 {
+  margin:0;
+  font-family: "DynaPuff", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+/*
+.un{
+    background-color: aquamarine;
+}
+.deux{
+    background-color: rgb(255, 225, 127);
+}
+.trois{
+    background-color: rgb(127, 161, 255);
+}
+.quatre{
+    background-color: rgb(214, 127, 255);
+}
+.cinq{
+    background-color: rgb(255, 127, 176);
+}
+*/
+body > div:nth-of-type(1){
+ background: 
+  linear-gradient(to bottom, transparent 80%, black 100%),
+  url("../images/les-aliments-bons-pour-coeur_2000x.webp");
+
+  background-position: 50%;
+  background-size: cover;
+}
+
+body > div:nth-of-type(2){ 
+    background: linear-gradient(to top, transparent 80%, black 100%),
+    url("../images/qAQrhgbDi7Vz6mj4hq8oad_l38g_9OrWxPk1U_O4MyY.webp");
+}
+
+body > div:nth-of-type(3){
+    background-color: rgb(41, 93, 216);
+}
+body > div:nth-of-type(4){
+    background-color: rgb(106, 0, 255);
+}
+body > div:nth-of-type(5){
+    background-color: rgb(65, 169, 210);
+}
+body > div:nth-of-type(6){
+
+    background-color: rgb(255, 77, 0);
+}
+body > div:nth-of-type(7){
+
+    background-color: rgb(116, 202, 82);
+}
+
+
+.centre{
+    margin: 0 auto;
+    max-width: 1100px;
+    background-color: #ffffff3f;
+    padding : 25px;
+}
+ 
+/* ///////////////////////////////////////////////// la division .hero  */ 
+
+.hero{
+
+}
+
+.hero__barresup {
+    background-color: #ffffff7a;
+    padding : 20px;
+}
+
+.hero__titre {
+    color: #0d1e30;
+    font-size: 3rem;
+}
+
+.hero__logo {
+    border-radius: 50%;
+}
+
+.hero > .centre {
+      background-color:#ee9d0859;
+}
