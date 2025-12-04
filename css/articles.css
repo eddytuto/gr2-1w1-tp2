@@ -1,0 +1,31 @@
+
+/* notre conteneur principal */
+.article{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+/* element du conteneur la première colonne */
+.article__div{
+
+    flex-grow: 1;
+    flex-shrink:0 ;
+    flex-basis:300px ;
+ 
+}
+/* element du conteneur la première colonne */
+.article__figure{
+        /*
+    flex-grow: ;
+    flex-shrink: ;
+    flex-basis: ;
+    */
+}
+
+
+
+.article__div h2{}
+.article__div p{}
+
+.article__img{}
+.article__figcaption{}
