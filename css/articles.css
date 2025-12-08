@@ -20,7 +20,12 @@
     flex-shrink: ;
     flex-basis: ;
     */
+    order: -1;
 }
+/*
+odd : impair
+*/
+.article:nth-of-type(odd) .article__figure{}
 
 
 
