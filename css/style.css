@@ -44,6 +44,12 @@ body > div:nth-of-type(1){
   background-size: cover;
 }
 
+
+figure {
+    margin: 0;
+    padding:0;
+}
+
 body > div:nth-of-type(2){ 
     background: linear-gradient(to top, transparent 80%, black 100%),
     url("../images/qAQrhgbDi7Vz6mj4hq8oad_l38g_9OrWxPk1U_O4MyY.webp");
